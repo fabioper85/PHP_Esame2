@@ -1,0 +1,32 @@
+.container
+{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container h4
+{
+  width: 60%;
+  margin-top: 20px;
+}
+
+.clearfix
+{
+  clear: both;
+}
+
+.btn-primary
+{
+  background-color: transparent;
+  color: blue;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#regione, #provincia, #comune
+{
+  margin: 10px;
+  width: 30%;
+  float: left;
+}

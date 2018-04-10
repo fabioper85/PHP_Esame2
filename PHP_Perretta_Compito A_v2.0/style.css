@@ -1,0 +1,146 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  height: 100vh;
+  background-image: url('building.jpg'), linear-gradient(90deg, orangered, orangered);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box
+{
+  /* background-color: pink; */
+  height: 85vh;
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dati
+{
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  padding: 2%;
+  width: 40%;
+}
+
+.dati label
+{
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.dati h1
+{
+  margin-bottom: 18px;
+  font-size: 1.8em;
+}
+
+.dati h4
+{
+  margin: 20px 0 10px 0;
+  padding: 0;
+}
+
+.report
+{
+  background-color: rgba(0,0,0,.8);
+  padding: 1%;
+  width: 61%;
+  overflow: auto;
+}
+
+.dati .btn-primary
+{
+  border: none;
+  color: orangered;
+  border: 2px solid orangered;
+  font-weight: bold;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 40px;
+  transition: all .2s ease-in-out;
+}
+
+.dati .btn-primary:hover
+{
+  color: #fff;
+  background-color: orangered;
+  filter: drop-shadow(0 5px 2px rgba(0,0,0,.3));
+}
+
+.clearfix
+{
+  clear: both;
+}
+
+#regione, #provincia, #comune
+{
+  margin-right: 10px;
+  width: 31%;
+  float: left;
+}
+
+.emptyDb
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.table
+{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  /* background-color: pink; */
+}
+
+.table td,
+.table th
+{
+  color: #fff;
+}
+
+.table th
+{
+  border: none;
+  font-size: 13px;
+}
+
+.table td
+{
+  font-size: 12px;
+}
+
+.table .info-box
+{
+  width: 250px;
+}
+
+.info-box a
+{
+  color: orangered;
+  display: block;
+}
+
+.info-box p
+{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  display: none;
+}
